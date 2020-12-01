@@ -22,7 +22,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 MODE=config("MODE", default="dev")
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = 'a9b)(mpi9x(*jjdw8nup087$_vt6e$wbnimb6h4q=v=0q)uyfn'
 DEBUG = config('DEBUG', default=False, cast=bool)
 # development
 if config('MODE')=="dev":
@@ -53,7 +53,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'a9b)(mpi9x(*jjdw8nup087$_vt6e$wbnimb6h4q=v=0q)uyfn'
+# SECRET_KEY = 'a9b)(mpi9x(*jjdw8nup087$_vt6e$wbnimb6h4q=v=0q)uyfn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
