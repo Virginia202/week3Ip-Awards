@@ -171,7 +171,7 @@ STATICFILES_DIRS = (
 )
 
 
-]
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
